@@ -1,0 +1,90 @@
+body {
+	margin: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 900px;
+	background: url("fon.jpg");
+}
+
+#container {
+	background: #f0f0f0;
+}
+
+#section {
+	margin: 30px;
+}
+
+.name p {
+	color: red;
+	font-size: 30px;
+	text-align: center;
+}
+
+.one {
+	background: #f0f0f0;
+	width: 100%;
+}
+
+.one p{
+	font-size: 20px;
+	color: black;
+	text-align: justify;
+
+}
+
+.two {	
+	background: #f0f0f0;
+	width: 100%;
+
+}
+
+.two p{
+	font-size: 20px;
+	color: black;
+	text-align: justify;
+}
+
+#images {
+	margin-bottom: 20px;
+}
+
+#images a{
+	margin-left: 20px;
+}
+
+@media (max-width: 900px){
+
+.glav {
+ 	width: 110%;
+}
+
+#footer {
+	width: 700px; 
+}
+
+.header {
+	width: 500px;
+}
+#section {
+	width: 450px
+}
+#container{
+	width: 500px;
+}
+li{
+	width: 83px;
+}
+
+.name {
+	width: 450px;
+}
+
+#section li {
+	width: 400px;
+}
+
+#images {
+	text-align: center;
+	width: 400px;
+}
+}

@@ -1,0 +1,13 @@
+#footer {
+	border-top: 1px solid gray;
+	display: inline-block;
+	width: 100%;
+	background: #f0f0f0;
+}
+
+#footer p{
+	color: black !important;
+	background: #f0f0f0;
+	line-height: 0.9em;
+	text-indent: 0px;
+}

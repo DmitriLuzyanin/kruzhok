@@ -1,0 +1,122 @@
+body {
+	margin: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 900px;
+	background: url("fon.jpg");
+}
+
+#container {
+	background: #f0f0f0;
+}
+
+#name {
+	margin: 30px;
+	text-align: center;
+}
+
+#name h6{
+	text-align: center;
+	padding-bottom: 20px;
+	margin:-20px;
+	color: red;
+	font-size: 46px;
+}
+
+#section {
+	padding-left: 40px;
+}
+
+.left{
+	margin: 0 15px 15px 0; 
+    float:left; 
+	width: 500px;
+	height: 550px;
+	background: #f0f0f0;
+}
+
+.left p{
+	text-align: center;
+}
+	
+.left h5{
+	line-height: 1.1em;
+	text-indent: 20px;
+}
+
+.right {
+	margin: 0 15px 15px 0; 
+    float:left; 
+	width:300px;
+	height: 550px;
+	background: #f0f0f0;
+}
+
+.right p{
+	text-align: center;
+}
+
+.imgone {
+	float:left
+}
+
+.imgtwo {
+	margin-top: 130px;
+	float:right:
+}
+
+.imgthree {
+	margin-top:-40px;
+	float:left;
+}
+
+.imgfour {
+	margin-top: 70px;
+	float:right;
+}
+
+#footer {
+	display: inline-block;
+	width: 100%;
+	background: #f0f0f0;
+}
+
+.p {
+	background: #f0f0f0;
+	line-height: 0.9em;
+}
+
+@media (max-width: 900px) {
+.left {
+	width: 450px;
+}
+
+.right {
+	width: 450px;
+}
+
+.imgfour {
+	float: left;
+}
+
+.glav {
+ 	width: 110%;
+}
+
+#footer {
+	width: 700px; 
+}
+
+.header {
+	width: 500px;
+}
+#section {
+	width: 900px
+}
+#container{
+	width: 500px;
+}
+li{
+	width: 83px;
+}
+}
